@@ -1,6 +1,7 @@
 body {
     font-family: tahoma;
     text-align: center;
+    background-color: rgb(208, 0, 255);
 }
 header {
     letter-spacing: 6px;
@@ -11,4 +12,8 @@ header {
 img {
     height: 1000px;
     width: 600px;
+}
+h2 {
+    background-color: black;
+    color: gold;
 }
