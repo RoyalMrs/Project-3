@@ -16,4 +16,10 @@ img {
 h2 {
     background-color: black;
     color: gold;
+    font-size: 2em;
+    width: 100%;
+}
+section {
+    padding: 30px;
+    margin-bottom: 40px;
 }
