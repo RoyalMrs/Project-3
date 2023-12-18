@@ -3,23 +3,77 @@ body {
     text-align: center;
     background-color: rgb(208, 0, 255);
 }
+
 header {
     letter-spacing: 6px;
     background: black;
     padding: 20px;
     color: gold;
 }
+
 img {
     height: 1000px;
     width: 600px;
 }
+
 h2 {
     background-color: black;
     color: gold;
     font-size: 2em;
     width: 100%;
 }
+
 section {
     padding: 30px;
     margin-bottom: 40px;
+}
+/* CSS CARDS */
+.container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+@media screen and (min-width: 50em) {
+    .card {
+        flex-basis: 325px;
+    }
+    header h1 {
+        font-size: 5em;
+    }
+    }
+
+    .card {
+    border: 1px solid #ccc;
+    background-color: ivory;
+    padding: 25px;
+    margin: 25px ;
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+}
+.icons {
+    font-size: 8em;
+    padding: 25px;
+}
+button, .button {
+    background: royalblue;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+td {
+    padding: 10px;
+}
+table {
+    margin: auto;
+}
+/* CSS ID */
+#my-order {
+    background-color: #29c1c4;
+    padding: 25px;
+    display: none;
+}
+.footer {
+    padding: 30px;
+    background: grey;
 }
